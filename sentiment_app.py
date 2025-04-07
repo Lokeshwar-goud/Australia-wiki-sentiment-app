@@ -7,7 +7,7 @@ vectorizer = joblib.load("tfidf_vectorizer.pkl")
 model = joblib.load("sentiment_model.pkl")
 
 # Title
-st.title("🇦🇺 Australia Wikipedia Sentiment Predictor")
+st.title("Australia Wikipedia Sentiment Predictor")
 
 # Input from user
 user_input = st.text_area("Enter a sentence about Australia:")
